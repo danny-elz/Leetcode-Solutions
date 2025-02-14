@@ -1,7 +1,12 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+class Solution {
+public:
+};
 
+int main() {
+    Solution solution;
     return 0;
 }
+
+

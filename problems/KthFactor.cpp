@@ -15,4 +15,3 @@ int kthFactor(int n, int k) {
     }
     return factors.at(k-1);
 }
-};

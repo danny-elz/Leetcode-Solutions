@@ -9,4 +9,5 @@ add_executable(Leetcode main.cpp
         problems/mySqrt.cpp
         problems/KthFactor.cpp
         problems/BinarySearch.cpp
+        problems/RomanToInteger.cpp
 )
