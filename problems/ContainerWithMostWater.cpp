@@ -9,7 +9,7 @@ int maxArea(std::vector<int>& height) {
     int res;
 
     while(l < r) {
-        int area = (r-l) * std::min(height[l], height[r]);
+        int area = (r - l) * std::min(height[l], height[r]);
         res = std::max(res, area);
         if(height[l] < height[r]) {
             l++;
