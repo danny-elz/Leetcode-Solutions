@@ -13,4 +13,5 @@ add_executable(Leetcode main.cpp
         problems/ContainerWithMostWater.cpp
         problems/MedianOfTwoSortedArrays.cpp
         problems/RemoveElement.cpp
+        problems/TwoSum.cpp
 )

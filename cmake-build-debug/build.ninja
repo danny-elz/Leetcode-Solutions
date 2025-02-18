@@ -109,6 +109,12 @@ build CMakeFiles/Leetcode.dir/problems/RemoveElement.cpp.o: CXX_COMPILER__Leetco
   OBJECT_DIR = CMakeFiles/Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles/Leetcode.dir/problems
 
+build CMakeFiles/Leetcode.dir/problems/TwoSum.cpp.o: CXX_COMPILER__Leetcode_unscanned_Debug /Users/dannyelzein/Desktop/C++/Leetcode/problems/TwoSum.cpp || cmake_object_order_depends_target_Leetcode
+  DEP_FILE = CMakeFiles/Leetcode.dir/problems/TwoSum.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles/Leetcode.dir/problems
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Leetcode
@@ -117,7 +123,7 @@ build CMakeFiles/Leetcode.dir/problems/RemoveElement.cpp.o: CXX_COMPILER__Leetco
 #############################################
 # Link the executable Leetcode
 
-build Leetcode: CXX_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/main.cpp.o CMakeFiles/Leetcode.dir/problems/MergeTwoSortedLists.cpp.o CMakeFiles/Leetcode.dir/problems/MissingNumber.cpp.o CMakeFiles/Leetcode.dir/problems/mySqrt.cpp.o CMakeFiles/Leetcode.dir/problems/KthFactor.cpp.o CMakeFiles/Leetcode.dir/problems/BinarySearch.cpp.o CMakeFiles/Leetcode.dir/problems/RomanToInteger.cpp.o CMakeFiles/Leetcode.dir/problems/ContainerWithMostWater.cpp.o CMakeFiles/Leetcode.dir/problems/MedianOfTwoSortedArrays.cpp.o CMakeFiles/Leetcode.dir/problems/RemoveElement.cpp.o
+build Leetcode: CXX_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/main.cpp.o CMakeFiles/Leetcode.dir/problems/MergeTwoSortedLists.cpp.o CMakeFiles/Leetcode.dir/problems/MissingNumber.cpp.o CMakeFiles/Leetcode.dir/problems/mySqrt.cpp.o CMakeFiles/Leetcode.dir/problems/KthFactor.cpp.o CMakeFiles/Leetcode.dir/problems/BinarySearch.cpp.o CMakeFiles/Leetcode.dir/problems/RomanToInteger.cpp.o CMakeFiles/Leetcode.dir/problems/ContainerWithMostWater.cpp.o CMakeFiles/Leetcode.dir/problems/MedianOfTwoSortedArrays.cpp.o CMakeFiles/Leetcode.dir/problems/RemoveElement.cpp.o CMakeFiles/Leetcode.dir/problems/TwoSum.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Leetcode.dir
   POST_BUILD = :
