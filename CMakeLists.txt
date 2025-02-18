@@ -14,4 +14,5 @@ add_executable(Leetcode main.cpp
         problems/MedianOfTwoSortedArrays.cpp
         problems/RemoveElement.cpp
         problems/TwoSum.cpp
+        problems/FirstBadVersion.cpp
 )
