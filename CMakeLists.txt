@@ -11,4 +11,6 @@ add_executable(Leetcode main.cpp
         problems/BinarySearch.cpp
         problems/RomanToInteger.cpp
         problems/ContainerWithMostWater.cpp
+        problems/MedianOfTwoSortedArrays.cpp
+        problems/RemoveElement.cpp
 )

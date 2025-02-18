@@ -1,7 +1,7 @@
 //
 // Created by Danny Elzein on 2025-02-15.
 //
-#include <vector>
+#include <iostream>
 
 int maxArea(std::vector<int>& height) {
     int l = 0;
