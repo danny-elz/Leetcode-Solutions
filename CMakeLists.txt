@@ -15,4 +15,7 @@ add_executable(Leetcode main.cpp
         problems/RemoveElement.cpp
         problems/TwoSum.cpp
         problems/FirstBadVersion.cpp
+        problems/MergeStringsAlternately.cpp
+        problems/GreatestCommonDivisorofStrings.cpp
+        problems/KidsWithExtraCandies.cpp
 )

@@ -60,7 +60,10 @@
 				8,
 				9,
 				10,
-				11
+				11,
+				12,
+				13,
+				14
 			]
 		}
 	],
@@ -104,7 +107,10 @@
 				8,
 				9,
 				10,
-				11
+				11,
+				12,
+				13,
+				14
 			]
 		}
 	],
@@ -180,6 +186,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "problems/FirstBadVersion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "problems/MergeStringsAlternately.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "problems/GreatestCommonDivisorofStrings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "problems/KidsWithExtraCandies.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
