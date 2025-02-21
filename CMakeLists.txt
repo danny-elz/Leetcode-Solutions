@@ -18,4 +18,10 @@ add_executable(Leetcode main.cpp
         problems/MergeStringsAlternately.cpp
         problems/GreatestCommonDivisorofStrings.cpp
         problems/KidsWithExtraCandies.cpp
+        problems/JumpGame.cpp
+        problems/CanPlaceFlower.cpp
+        problems/MoveZeros.cpp
+        problems/IsSubsequence.cpp
+        problems/ContainsDuplicates.cpp
+        problems/ValidAnagram.cpp
 )
