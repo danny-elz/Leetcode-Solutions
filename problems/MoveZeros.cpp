@@ -5,7 +5,7 @@
 void moveZeroes(std::vector<int>& nums) {
     int nonzero = 0;
     for (int i = 0; i< nums.size(); i++) {
-        if(i != nonzero) {
+        if(nums[i] != nonzero) {
             std::swap(nums[i], nums[nonzero]);
             nonzero++;
         }

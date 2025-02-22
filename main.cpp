@@ -1,13 +1,22 @@
 #include <iostream>
 class Solution {
 public:
-    bool canJump(std::vector<int>& nums) {
-        int post = nums.size() - 1;
-        for (int i = nums.size() - 1; i <= 0; i--) {
-            if(i + nums[i] > post)
-                post = i;
+    double findMaxAverage(std::vector<int>& nums, int k) {
+        int n = nums.size();
+        if (nums.size() == 1) {
+            return nums[0];
         }
-        return post == 0;
+        double sum = 0;
+        for (int i = 0; i < k; i++) {
+            sum += nums[i];
+        }
+        double res = sum;
+
+        for (int i = k; i < n; i++) {
+            sum += nums[i] - nums[i - k];
+            res = std::max(res, sum);
+        }
+        return res / k;
     }
 };
 

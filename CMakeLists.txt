@@ -24,4 +24,5 @@ add_executable(Leetcode main.cpp
         problems/IsSubsequence.cpp
         problems/ContainsDuplicates.cpp
         problems/ValidAnagram.cpp
+        problems/MaximumAverageSubarray1.cpp
 )
